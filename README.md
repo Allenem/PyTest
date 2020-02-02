@@ -12,7 +12,7 @@
 
 (二)、配置环境python变量
 
-编辑系统变量（我的电脑右键属性 => 高级 => 环境变量 => 系统变量），在系统的path变量中添加4个变量目录，假设python3的安装目录为：E:\Program Files\Python\Python36，分别添加：“E:\Program Files\Python\Python36”、“E:\Program Files\Python\Python36\Scripts”。
+编辑系统变量（我的电脑右键属性 => 高级 => 环境变量 => 系统变量），在系统的path变量中添加2个变量目录，假设python3的安装目录为：E:\Program Files\Python\Python36，分别添加：“E:\Program Files\Python\Python36”、“E:\Program Files\Python\Python36\Scripts”。
 
 (三)、安装python3的pip
 
@@ -158,6 +158,8 @@ Uninstalling opencv-python-4.2.0:
 Proceed (y/n)? y
   Successfully uninstalled opencv-python-4.2.0
 ```
+
+在使用OpenCV的人脸检测之前，需要一个人脸训练模型，格式是xml的，我们这里使用OpenCV提供好的人脸分类模型xml，下载地址：https://github.com/opencv/opencv/tree/master/data/haarcascades 可全部下载到本地。
 
 ---
 
